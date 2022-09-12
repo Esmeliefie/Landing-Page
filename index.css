@@ -1,0 +1,137 @@
+:root {
+    --ff_1:'Roboto', sans-serif;
+
+    --ff_1-weight:700;
+    --ff_2-weight:300;
+
+    --fs_h1: 60px;
+    --fs_h2: 42px;
+    --fs_h3: 36px;
+    --fs_body: 21px;
+    --fs_small: 16px;
+
+    --text-color: #fff;
+
+    --color_1: #80ca08;
+    --color_2: #131313;
+    --color_3: #252525;
+    --color_4: #fff7f7;
+    --color_5: #EAF9FF;
+}
+
+/* LAYOUT */
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: var(--ff_1);
+    font-weight: var(--ff_2-weight);
+    font-size: var(--fs_body);
+}
+
+.main_container { 
+    width: 570px;
+    margin: 0 auto;
+}
+
+header {
+    width:100%;
+    background-color: var(--color_3);
+    padding: 100px 0;
+    color: var(--text-color);
+}
+
+.section_one {
+    background-color: var(--color_4);
+    padding: 100px 0;
+}
+
+.section_two {
+    background-color: var(--color_3);
+    padding: 100px 0;
+    color: var(--text-color);
+}
+
+/* TYPOGRAPY */
+
+h1 {
+    margin-top: 0;
+    font-weight: var(--ff_2-weight);
+    font-size: var(--fs_h1);
+}
+
+h2 {
+    padding:15px 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: var(--ff_2-weight);
+    font-size: var(--fs_h2);
+    border-top: 1px solid #C4C4C4;
+    border-bottom: 1px solid #C4C4C4;
+}
+
+h3 {
+    margin-bottom: 0;
+    font-size: var(--fs_h3);
+    font-weight: var(--ff_1-weight);
+}
+p {
+    margin-bottom: 10px;
+}
+
+.small_fs {
+    margin-top: 1px;
+    font-size: var(--fs_small);
+}
+
+.bright {
+    color: var(--color_1);
+}
+
+.title_style {
+    color: var(--color_1);
+    font-size: 80px;
+    font-weight: var(--ff_1-weight);
+}
+
+.sub_style {
+    color: var(--color_1);
+    font-size: 60px;
+    font-weight: var(--ff_1-weight);
+}
+
+/* LINKS */
+
+a {
+    color: var(--color_1);
+    font-weight: var(--ff_1-weight);
+    text-decoration: none;
+}
+
+a:hover, 
+a:focus {
+    color: var(--color_2)
+}
+
+.btn_link {
+    display: inline-block;
+    background-color: var(--color_1);
+    color: var(--color_3);
+    padding: 5.5px 15px;
+    border-radius:5px;
+}
+
+.btn_link:hover, 
+.btn_link:focus {
+    border: 2px solid var(--color_1);
+    background-color: var(--color_3);
+    color: var(--text-color);
+}
+
+/* IMAGES */
+
+img {
+    width: 40%;
+    border: 6px solid white;
+    border-radius: 50%;
+}
